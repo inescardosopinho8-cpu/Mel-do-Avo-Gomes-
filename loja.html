@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loja | Mel do Avô Gomes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<script>
+    let produtos=[];
+    function adicionarProduto(nome, preco){
+        produtos.push({ 
+            nome: nome,
+            preco: preco
+        });
+        alert(nome + "Foi adicionado ao pedido!")
+    }
+</script>
+<body>
+<header>
+<div class="navbar">
+<a href="index.html" class="logo">
+
+            Mel do Avô Gomes
+<small>Desde gerações · Apicultura</small>
+</a>
+<nav>
+<a href="index.html">Início</a>
+<a href="empresa.html">Empresa / História</a>
+<a href="loja.html">Loja</a>
+<a href="cliente.html">Cliente</a>
+<a href="contactos.html">Contactos</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="pagina-topo">
+<div class="mini-titulo">
+
+            Loja · A nossa produção
+</div>
+<h1>
+
+            Méis com
+
+            identidade.
+</h1>
+<p>
+
+            Diferentes paisagens, florações e épocas dão origem
+
+            a diferentes perfis de mel. Descubra a nossa seleção.
+</p>
+</section>
+
+<section class="secao">
+<div class="produtos-grid quatro">
+
+<!-- MEL DE MONTANHA -->
+<article class="produto">
+<div class="produto-imagem">
+
+<img src="imagens/mel de montanha.png"alt="Mel de Montanha">
+
+            
+</div>
+<div class="produto-info">
+<h3>Mel de Montanha</h3>
+<p>
+
+      Mel de meia altitude, onde o rosmaninho
+
+     encontra castanheiros, urzes e carvalhos.
+
+      Apresenta uma cor escura e um paladar forte,
+   equilibrado entre o doce, o amargo e o salgado.
+</p>
+<p>
+
+      Perfil aromático complexo, com expressões
+
+      florais e frutadas, madeira seca e um suave
+
+       toque de caramelo.
+</p>
+<div class="preco">
+
+                        12 € / kg
+
+</div>
+<button class="botao botao-dourado" onclick="adicionarProduto('Mel de Montanha' , 12)">
+    Comprar
+</button>
+</div>
+</article>
+
+<!-- MEL DE ROSMANINHO -->
+<article class="produto">
+<div class="produto-imagem">
+
+<img src="imagens/mel de rosmaninho.jpg">
+</div>
+<div class="produto-info">
+<h3>Mel de Rosmaninho</h3>
+<p>
+
+                        Produzido onde as abelhas encontram
+
+                        vastas áreas de rosmaninho silvestre
+
+                        (<em>Lavandula stoechas</em>).
+</p>
+<p>
+
+                        Um mel delicado, de cor clara e
+
+                        aroma floral intenso. É o primeiro mel
+
+                        a ser extraído em cada campanha.
+</p>
+<div class="preco">
+
+                        10 € / kg
+</div>
+<button class="botao botao-dourado" onclick="adicionarProduto('Mel de Rosmaninho' , 10)">
+    Comprar
+</button>
+</div>
+</article>
+
+<!-- MEL MULTIFLORAL -->
+<article class="produto">
+<div class="produto-imagem">
+
+<img src="imagens/mel multifloral.jpg"
+
+      alt="Mel Multifloral">
+
+
+</div>
+<div class="produto-info">
+<h3>Mel Multifloral</h3>
+<p>
+
+                        Produzido na transição da terra quente
+
+                        para a terra fria, este é um mel genuíno
+
+                        de elevada qualidade.
+</p>
+<p>
+
+                        Apresenta um tom âmbar e um aroma e
+
+                        sabor doce, beneficiando do microclima
+
+                        e das diferentes florações de Trás-os-Montes.
+</p>
+<div class="preco">
+
+                        9 € / kg
+</div>
+<button class="botao botao-dourado" onclick="adicionarProduto('Mel Multifloral' , 9)">
+    Comprar
+</button>
+</div>
+</article>
+
+<!-- PÓLEN -->
+<article class="produto">
+<div class="produto-imagem">
+
+<img src="imagens/polen.jpg"
+
+                         alt="Pólen">
+
+            
+</div>
+<div class="produto-info">
+<h3>Pólen</h3>
+<p>
+
+                        Um produto natural da atividade das
+
+                        abelhas, apresentado na nossa seleção
+
+                        como complemento à produção de mel.
+</p>
+<p>
+
+                        Disponível para quem procura conhecer
+
+                        também outros produtos da colmeia.
+</p>
+<div class="preco">
+
+                        15 € / kg
+</div>
+<button class="botao botao-dourado" onclick="adicionarProduto('Pólen' , 15)">
+    Comprar
+</button>
+</div>
+</article>
+
+</div>
+</section>
+
+<section class="destaque">
+<p>Da natureza para si</p>
+<h2>
+
+            Descubra o carácter
+
+            de cada colheita.
+</h2>
+</section>
+</main>
+
+<footer>
+<div class="footer-interior">
+<div class="footer-topo">
+<div class="footer-logo">
+
+                Mel do Avô Gomes
+</div>
+<p>
+
+                Mel produzido com respeito pela natureza
+
+                e pelas abelhas.
+</p>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Mel do Avô Gomes</span>
+<div class="footer-links">
+<a href="index.html">Início</a>
+<a href="empresa.html">Empresa</a>
+<a href="contactos.html">Contactos</a>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>
+ 
